@@ -6,13 +6,13 @@ from moviepy import ImageClip
 
 app = Flask(__name__)
 
-# Senin yazdığın resim üretim fonksiyonu
+# Resim üretim fonksiyonu
 def create_social_image(question, category, end_date):
     width, height = 1080, 1080
     image = Image.new('RGB', (width, height), color='#0B0E14')
     draw = ImageDraw.Draw(image)
 
-    # Sunucuda (Linux) çalışacağı için varsayılan fontu kullanıyoruz
+    
     title_font = ImageFont.load_default()
     category_font = ImageFont.load_default()
     brand_font = ImageFont.load_default()
@@ -29,7 +29,7 @@ def create_social_image(question, category, end_date):
     image.save(output_filename)
     return output_filename
 
-# Senin yazdığın video üretim fonksiyonu
+# Video üretim fonksiyonu
 def create_tiktok_video(question, category, end_date):
     width, height = 1080, 1920
     image = Image.new('RGB', (width, height), color='#0a001a')
