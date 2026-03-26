@@ -1,5 +1,9 @@
 
 # Noly Market Medya Oluşturucu
+
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ersozberk/noly-medya-bot/edit/main/README.md)
+[![pt-br](https://img.shields.io/badge/lang-tr-green.svg)](https://github.com/ersozberk/noly-medya-bot/edit/main/README-tr.md)
+
 Bu proje, Make.com veya benzeri otomasyon araçlarından gelen verilerle otomatik olarak sosyal medya görselleri (Instagram/X) ve kısa videolar (TikTok/Reels) oluşturan bir Flask API servisidir.
 
 ## Özellikler
